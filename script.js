@@ -24,7 +24,6 @@ const sentences = [
   retryBtn.addEventListener("click", resetTest);
   
   function startTest() {
-      timer=10;
     inputField.disabled = false;
     inputField.value = ""; // Clear the input field
     sentenceElement.textContent = getRandomSentence(); // Display random sentence
